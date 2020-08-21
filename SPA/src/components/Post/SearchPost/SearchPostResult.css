@@ -1,0 +1,74 @@
+
+.sectionHeader {
+    background-color: rgba(0,0,0,0.9);
+    padding: 8px 0 24px 24px;
+}
+
+.sectionHeading {
+    color: white;
+    font-size: 1.3em;
+    padding: 16px 0 16px 0;
+    border-bottom: 1px solid #335;
+    margin-bottom: 12px;
+}
+
+#searchIndexTable{
+    background-color: rgba(255,255,255,0.8) !important;
+}
+
+
+.searchBar {
+    padding: 3px 5px 2px 12px;
+    margin: 8px;
+    background-color: #333;
+    width: 10%;
+    transition: ease .3s;
+    border: none;
+}
+
+    .searchBar:focus {
+        color: black;
+        width: 60%;
+        background-color: #fff;
+    }
+
+.btn-forumSearch {
+    background: none !important;
+    border: none;
+    padding: 0 !important;
+    font: inherit;
+}
+
+.postData {
+    display: inline-block
+}
+
+
+.postTitle {
+    font-weight: bold;
+}
+
+.forumSubTitle {
+    color: #888;
+    font-size: 0.8em;
+}
+
+.postDate {
+    color: #888;
+    font-size: 0.8em;
+}
+
+.forumPostCount {
+    color: #888;
+    font-size: 0.9em;
+}
+
+.noPosts {
+    text-align: center;
+    padding-top: 30px;
+}
+
+.postAuthor,.postForum,.postForum{
+    padding:3px;
+}
+

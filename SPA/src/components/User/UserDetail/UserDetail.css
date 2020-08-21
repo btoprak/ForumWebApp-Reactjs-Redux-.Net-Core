@@ -1,0 +1,37 @@
+.userProfile {
+    padding: 32px 0 64px 24px;
+    background-color: #fff;
+}
+
+#userProfileImage {
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    background-color: #ddd;
+    background-size: 100%;
+    margin-bottom: 10px;
+}
+
+.btn-file {
+    color: white;
+    width: 80%;
+    background-color: gainsboro !important;
+    transition: ease 0.3s;
+}
+
+.btn-file:hover {
+        background-color: #039BE5 !important;
+        transition: ease 0.3s;
+    }
+
+#userName {
+    display: block;
+    color: #2569d5;
+    font-size: 1.7em;
+}
+
+#userEmailLabel, #userBioLabel, #userCreatedLabel, #userRating, #userActiveLabel {
+    display: block;
+    color: black;
+    padding-top: 3px;
+}

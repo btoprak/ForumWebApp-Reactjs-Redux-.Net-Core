@@ -1,0 +1,68 @@
+﻿.frontPageSplash {
+    background-image: url("../../assets/image/theme/programmer.jpg");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.frontPageLearn {
+    padding: 12px 0 0 32px;
+    height: 50%;
+}
+
+.frontPageHeading {
+    font-size: 3.2em;
+    margin: 16px;
+}
+
+.frontPageSubHeading {
+    font-size: 2em;
+}
+
+.homeSearch {
+    width: 100%;
+    margin-top: 8px;
+    background: rgba(0,0,0,0.1);
+    padding: 8px;
+    border: 0px;
+    height: 2.3em;
+    font-size: 2.1em;
+    font-weight: bold;
+    transition: ease-in 0.2s;
+}
+
+    .homeSearch:focus {
+        border: none !important;
+        outline: none !important;
+        transition: ease-in 0.2s;
+        color: #03A9F4;
+        background-color: rgba(0,0,0,0.7);
+        box-shadow: 0 5px 4px -6px #000;
+    }
+
+
+.frontPageContent {
+        background-color: rgba(255,255,255,0.9);
+        padding: 16px;
+}
+
+
+.forumLogo {
+    border-radius: 3px;
+    float: left;
+    margin-right: 20px;
+    height: 40px;
+    width: 40px;
+    background-color: #ddd;
+    border: 1px solid #555;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.postTitle {
+    font-weight: bold;
+}
+
+.postSubTitle {
+    color: #888;
+    font-size: 0.8em;
+}

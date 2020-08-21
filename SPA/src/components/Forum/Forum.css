@@ -1,0 +1,97 @@
+﻿﻿body {
+    background-image: url(../../assets/image/theme/bg-01.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.sectionHeader {
+    background-color: rgba(0,0,0,0.9);
+    padding: 8px 0 24px 24px;
+}
+
+.sectionHeading {
+    color: white;
+    font-size: 1.3em;
+    padding: 16px 0 16px 0;
+    border-bottom: 1px solid #335;
+    margin-bottom: 12px;
+}
+
+.sectionInfo {
+    height: 400px;
+    background-color: white;
+}
+
+.sectionDescription {
+    color: #EEE;
+}
+
+.frontPageHeading {
+    font-size: 3.2em;
+    margin: 16px;
+}
+
+#forumIndexTable td {
+    background-color: rgba(255,255,255,0.9);
+    font-size: 14px;
+}
+
+#forumIndexTable tr:hover {
+    background-color: rgba(0,116,238,1);
+}
+
+.forumData {
+    display: inline-block;
+}
+
+.forumTitle {
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+.forumSubTitle {
+    color: #888;
+    font-size: 0.8em;
+}
+
+.forumDescription {
+    color: #555;
+}
+
+.forumLogo {
+    border-radius: 3px;
+    float: left;
+    margin-right: 20px;
+    height: 40px;
+    width: 40px;
+    background-color: #ddd;
+    border: 1px solid #555;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.forumPostCount {
+    color: #888;
+    font-size: 0.9em;
+}
+
+.forumMemberCount {
+    color: #888;
+    font-size: 0.9em;
+}
+
+#forumIndexContent {
+    padding-bottom: 60px;
+    background-color: white;
+}
+
+.hasRecentPost {
+    padding: 2px;
+    background-color: #fe552f;
+    color: #fff;
+    text-align: center;
+    border-radius: 1px;
+    width: 30px;
+}

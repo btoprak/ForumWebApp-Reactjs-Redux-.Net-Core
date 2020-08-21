@@ -1,0 +1,37 @@
+.navbar{
+    background-color: rgba(200, 200, 200, 0.2);
+    padding:1px 5rem 1px 5rem !important;
+    margin-bottom: 2rem;
+}
+
+.link{
+    color:black;
+    font-weight: 500;
+    padding:10px;
+}
+
+.link:hover{
+    color:white;
+    text-decoration: none;
+}
+
+.navLogo {
+    background-image: url("../../assets/image/Forum_logo.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 100px !important;
+    height: 45px !important;
+}
+
+.navItem{
+    padding-top: 4% !important;
+}
+
+.dropdownlink{
+    color:black
+}
+.dropdownlink:hover{
+    color:black;
+    text-decoration: none;
+
+}

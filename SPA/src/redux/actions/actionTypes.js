@@ -1,0 +1,30 @@
+export const LOGIN_START = "LOGIN_START";
+export const LOGIN_SUCCESS = "LOGIN_SUCCESS";
+export const LOGIN_ERROR = "LOGIN_ERROR";
+export const LOGOUT = "LOGOUT";
+export const REGISTER_SUCCESS = "REGISTER_SUCCESS";
+export const REGISTER_ERROR = "REGISTER_ERROR";
+
+export const GET_FORUMS = "GET_FORUMS";
+export const GET_FORUM = "GET_FORUM";
+export const CREATE_FORUM = "CREATE_FORUM";
+
+export const GET_POST = "GET_POST";
+export const GET_LASTEST_POSTS = "GET_LASTEST_POSTS";
+export const CREATE_POST = "CREATE_POST";
+export const SEARCH_POST_SUCCESS = "SEARCH_POST_SUCCESS"
+
+export const CREATE_POST_REPLY = "CREATE_POST_REPLY";
+
+
+export const GET_USER_DETAIL = "GET_USER_DETAIL";
+export const UPDATE_USER_PHOTO = "UPDATE_USER_PHOTO";
+
+
+export const EDIT_ROLES = "EDIT_ROLES";
+export const GET_USERS_WITH_ROLES = "GET_USERS_WITH_ROLES"
+
+
+
+export const GET_ERRORS = 'GET_ERRORS';
+export const CLEAR_ERRORS = 'CLEAR_ERRORS';
